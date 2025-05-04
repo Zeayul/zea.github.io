@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Learning Cloud</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f5f8fb;
+      color: #333;
+    }
+
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+
+    h1, h2 {
+      color: #4a90e2;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Learning Cloud</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Courses</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Start Your Learning Journey</h2>
+    <p>Learning Cloud is your gateway to mastering new skills online. Explore tutorials, take courses, and grow your knowledge in cloud computing, web development, data science, and more!</p>
+
+    <h2>Popular Topics</h2>
+    <ul>
+      <li>Cloud Fundamentals (AWS, Azure, GCP)</li>
+      <li>Web Development (HTML, CSS, JavaScript)</li>
+      <li>Data Science & AI</li>
+      <li>DevOps & CI/CD</li>
+    </ul>
+  </div>
+
+  <footer>
+    &copy; 2025 Learning Cloud. All rights reserved.
+  </footer>
+
+</body>
+</html>
